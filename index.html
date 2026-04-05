@@ -2,12 +2,13 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title>Present</title>
+    <title>Skya的小破站喔</title>
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="static/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="static/css/loading.css">
 </head>
 <body class="locked">
@@ -35,29 +36,29 @@
         <div class="content-container">
             <div class="self-wrapper">
                 <div class="self-content links-container flex-center text-center">
-                    <a href="#" class="link-item">
+                    <a href="https://blog.simpfun.eu.org" class="link-item">
                         <div class="link-icon"><i class="fa fa-home"></i></div>
                         <div>博客</div>
                     </a>
-                    <a href="#" class="link-item">
+                    <a href="https://pan.simpfun.eu.org" class="link-item">
+                        <div class="link-icon"><i class="fa fa-cloud-download"></i></div>
+                        <div>在线网盘</div>
+                    </a>
+                    <a href="https://status.simpfun.eu.org" class="link-item">
+                        <div class="link-icon"><i class="fa fa-microchip"></i></div>
+                        <div>网站状态</div>
+                    </a>
+                    <a href="https://space.bilibili.com/1497397852" class="link-item">
                         <div class="link-icon"><i class="fa fa-play-circle"></i></div>
-                        <div>Bilibili</div>
+                        <div>哔哩哔哩</div>
                     </a>
-                    <a href="#" class="link-item">
-                        <div class="link-icon"><i class="fa fa-qq"></i></div>
-                        <div>QQ</div>
-                    </a>
-                    <a href="#" class="link-item">
-                        <div class="link-icon"><i class="fa fa-telegram"></i></div>
-                        <div>Telegram</div>
-                    </a>
-                    <a href="#" class="link-item">
-                        <div class="link-icon"><i class="fa fa-steam"></i></div>
-                        <div>Steam</div>
-                    </a>
-                    <a href="#" class="link-item">
+                    <a href="https://github.com/Kiuow" class="link-item">
                         <div class="link-icon"><i class="fa fa-github"></i></div>
                         <div>Github</div>
+                    </a>
+                    <a href="https://blog.simpfun.eu.org/atom.xml" class="link-item" target="_blank">
+                        <div class="link-icon"><i class="fa fa-rss"></i></div>
+                        <div>RSS</div>
                     </a>
                 </div>
                 <div class="self-content article-container">
@@ -97,7 +98,7 @@
             </div>
         </div>
     </div>
-    <div class="footer-container text-center">© 2020 By <a href="#">Present</a></div>
+    <div class="footer-container text-center">© 2020-2026 By <a href="#">Present</a></div>
 </body>
 
 <link rel="stylesheet" href="static/css/main.css">
@@ -108,22 +109,20 @@
 <script src="static/js/main.js"></script>
 <script>
     (function () {
-        var feedType = "json";
-        var feedPath = "feed.php";
+        var feedType = "xml";
+        var feedPath = "https://blog.simpfun.eu.org/atom.xml";
         var bgArr = [{
-            "url": "static/img/background-1.jpg",
-            "thumb": "static/img/background-1-thumb.jpg"
-        }, {
-            "url": "static/img/background-2.jpg",
-            "thumb": "static/img/background-2-thumb.jpg"
+            "url": "https://bing.simpfun.eu.org/api",
+            "thumb": "https://bing.simpfun.eu.org/api/?size=800x480"
         }];
         var senArr = [
             {
-                ch: ["This is an example."],
-                py: ["This is an example."],
-            }, {
-                ch: ["这是", "一个", "示例", "."],
-                py: ["zhe'shi", "yi'ge", "shi'li", "."],
+                ch: ["有没有发现其实你发现了这个主页哈哈哈嗝"],
+                py: ["Hahahahahaha"],
+            },
+            {
+                ch: ["欢迎", "来到", "我的", "小破站", {pause: 1427}, {del: 3}, "喔的", "牛逼克拉斯的","主页", "~"],
+                py: ["huan'ying", "lai'dao", "wo'de", "xiao'po'zhan", "", "", "wo de","niu'bi'ke'la'si","zhu'ye", "~"],
             }
         ];
 
